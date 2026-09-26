@@ -19,11 +19,11 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 TG_BOT_TOKEN = BOT_TOKEN # Alias for backward compatibility
 #@cantarellabots
 # Owner's Telegram user ID (numeric)
-OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5816147544"))
 
 # MongoDB connection URI
 MONGO_URI = os.environ.get("MONGO_URI", "")
-MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "cantarellabots")
+MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "")
 DB_URI = MONGO_URI    # Alias for old bot.py
 DB_NAME = MONGO_DB_NAME # Alias for old bot.py
 
@@ -34,7 +34,7 @@ CHANNEL_ID = 0
 MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", ""))
 
 # Force-subscribe channel for the main bot (username without @)
-FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "cantarellabots") 
+FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "Toonworld4all_Tamil") 
 
 # =============================================================================
 # ENCRYPTION — Used to secure bot tokens in the database
