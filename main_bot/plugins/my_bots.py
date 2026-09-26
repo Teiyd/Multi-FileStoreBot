@@ -1,4 +1,4 @@
-#@cantarellabots
+#@Toonworld4all_Tamil 
 
 from pyrogram import Client, filters
 from pyrogram.types import (
@@ -6,7 +6,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     InlineKeyboardButton,
 )
-#@cantarellabots
+#@Toonworld4all_Tamil 
 from config import LOGGER, BACKEND_API_SECRET, BACKEND_API_URL
 from database.main_db import MainDB
 from utils.security import mask_token, decrypt_token
@@ -14,11 +14,11 @@ from utils.security import mask_token, decrypt_token
 log = LOGGER(__name__)
 main_db = MainDB()
 
-#@cantarellabots
+#@Toonworld4all_Tamil 
 # =============================================================================
 # CALLBACK: My Bots (list all bots)
 # =============================================================================
-#@cantarellabots
+#@Toonworld4all_Tamil 
 @Client.on_callback_query(filters.regex(r"^my_bots$"))
 async def my_bots_callback(client: Client, query: CallbackQuery):
     """List all bots owned by the user."""
